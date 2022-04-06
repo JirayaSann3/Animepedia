@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(232, 229, 229);
+}
+
+.tittle{
+font-size: 65px;
+font-weight:800;
+text-align: center;
+background-color: rgb(212, 211, 211);
+display: block;
+}
+
+.ep{
+    margin: 20px;
+    font-size: 25px;
+    font-weight:500;
+}
+
+.misc{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.miscinfo{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.menu {
+    background-color: rgb(212, 211, 211);
+    color: #030303;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.eps {
+    background-color: #ffffff;
+    margin: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    width: 150px;
+    text-align: start;
+    border-radius: 4px;
+}
+
+.numberep {
+    display: block;
+    background-color: #ffffff;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.tittleep {
+    color: #030303;
+    background-color: white;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.imgep{
+background-color: white;
+width: 130px;
+margin: 10px;
+}
+
+.containereps{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 30px 300px;
+}
